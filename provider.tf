@@ -25,6 +25,7 @@ terraform {
     backend "s3" {
       encrypt = true
       bucket = "terraformsamplebucketapplication"
+      workspace_key_prefix = "shared/workspaces"
       dynamodb_table = "terraform-state-lock-dynamo"
       key = "path/path/terraform.tfstate"
       region = "us-east-1"
