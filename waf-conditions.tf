@@ -15,6 +15,7 @@
  # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+
 ## Creates a WAF IP Set to be used as a Blacklist for a WAF Rule to add to the Web ACL
 ## Value can be replaced with a Variable or a Static Value of an EIP within the customer VPC
 ## to test functionality of the WAF blocking access via IP
