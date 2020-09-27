@@ -15,6 +15,7 @@
  # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+
 ## Creates an AWS WAF Rule to Blacklist the IP Address specified in the IPSet Condition
 resource "aws_waf_rule" "AWS_Security_Blog_IP_Blacklist_Rule" {
   name        = "${var.AWS_Security_Blog_IP_Blacklist_Rule_Name}"
