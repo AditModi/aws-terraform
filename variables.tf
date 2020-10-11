@@ -19,6 +19,7 @@
 #################################
 ## waf-conditions.tf Variables ##
 #################################
+
 variable "AWS_Security_Blog_Blacklist_IPSet_Name" {
   default = "devsecopsblacklistipset"
 }
