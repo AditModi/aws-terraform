@@ -17,6 +17,7 @@
 
 
 ## Specifies the Region your Terraform Provider will server
+
 provider "aws" {
   region = "us-east-1"
 }
