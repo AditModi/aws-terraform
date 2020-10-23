@@ -19,6 +19,7 @@
 ## Value can be replaced with a Variable or a Static Value of an EIP within the customer VPC
 ## to test functionality of the WAF blocking access via IP
 
+
 resource "aws_waf_ipset" "AWS_Security_Blog_Blacklist_IPSet" {
   name = "${var.AWS_Security_Blog_Blacklist_IPSet_Name}"
   ip_set_descriptors {
